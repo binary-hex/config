@@ -68,9 +68,9 @@
   :bind-keymap
   ("C-c l" . lsp-command-map)
   :bind
-  ("M-," . 'lsp-find-references)
-  ("M-." . 'lsp-find-definition)
-  ("M-*" . 'xref-pop-marker-stack)
+  (("M-," . 'lsp-find-references)
+   ("M-." . 'lsp-find-definition)
+   ("M-*" . 'xref-pop-marker-stack))
   :hook (c-mode c++-mode python-mode latex-mode tex-mode texinfo-mode))
 
 ;; ;; Maybe use in future
