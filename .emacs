@@ -153,6 +153,7 @@
 ;; general settings ;;
 ;;;;;;;;;;;;;;;;;;;;;;
 (setq-default indent-tabs-mode nil)
+;;(setq c-default-style "awk")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; general keyboard mapping ;;
