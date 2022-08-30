@@ -153,6 +153,7 @@
 ;; general settings ;;
 ;;;;;;;;;;;;;;;;;;;;;;
 (setq-default indent-tabs-mode nil)
+(global-subword-mode)
 ;;(setq c-default-style "awk")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
