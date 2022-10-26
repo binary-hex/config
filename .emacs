@@ -135,6 +135,7 @@
   (require 'geiser-mode)
   :ensure t)
 
+;; use 'jar exec mode on some other systems
 (use-package plantuml-mode
   :config
   (setq plantuml-default-exec-mode 'executable)
