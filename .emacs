@@ -71,7 +71,12 @@
   (("M-," . 'lsp-find-references)
    ("M-." . 'lsp-find-definition)
    ("M-*" . 'xref-pop-marker-stack))
-  :hook (c-mode c++-mode python-mode latex-mode tex-mode texinfo-mode))
+  :hook ((c-mode . lsp)
+         (c++-mode . lsp)
+         (python-mode . lsp)
+         (latex-mode . lsp)
+         (tex-mode . lsp)
+         (texinfo-mode . lsp)))
 
 ;; ;; Maybe use in future
 ;; (use-package xref
