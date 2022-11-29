@@ -1,0 +1,4 @@
+ignorecase on
+caption always
+startup_message off
+defscrollback 10000
