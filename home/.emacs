@@ -155,6 +155,9 @@
 (use-package yaml-mode
   :ensure t)
 
+(use-package ztree
+  :ensure t)
+
 ;;;;;;;;;;;;;;;;;;;;;;
 ;; general settings ;;
 ;;;;;;;;;;;;;;;;;;;;;;
